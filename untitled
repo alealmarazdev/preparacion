@@ -1,0 +1,491 @@
+1- ¿Cuales son las áreas más importantes en el desarrollo web?, ¿Que tecnologías o herramientas son las más utilizadas de cada area?, ¿cual área te gustaría enfocarte y  ¿por qué?
+
+Para poder clasificar el desarrollo web tenemos algunos términos:
+
+	°UX/UI: Son los aspectos de la interacción del usuario final con la compañía, sus servicios y sus productos. Como herramientas suele usarse Card sorting y Optimal Sort.
+  °Front-end: Es el desarrollo web en el ámbito del cliente, es decir, en el navegador web. Las tecnologías y lenguajes principales son HTML, CSS y Javascript. 
+	°Devops	infraestructura terminales, conexiones remotas, sistemas operativos
+  °Back-end: Es el desarrollo web en el ámbito del servidor, donde las tecnologías y lenguajes son directamente relacionadas con el sistema operativo del servidor de la página web. Lenguajes y tecnologías habituales para Back-end son PHP, NodeJS, Python, .NET, e incluye también las bases de datos, como MySQL, PostgreSQL, SQL Server, entre otras.
+
+------------------------------------
+
+2-¿Cuales son las ventajas de utilizar la versión de HTML5 de las versiones antecesoras?
+
+La primera version de HTML fue lanzada en el año de 1991.
+
+HTML 1.0 era muy limitada en terminos de estlo y presentacion de contenido. Permitia el uso de tablas, de marcos, e podia especifcar solamente las fuentes, cmbia el coor de fondo de la pagina y usar en formularios el tag de input.
+    
+En la segunda version of HTML que fue lanzada en 1995 y es HTML 2.0. Esta version tiene solo unos pocos tag para navegadro por ejemplo ingreso "text file" y "option filed" para los formularios, ademas del fondo en general.
+
+La tercera versiond e HTML fue liberada en el año de 1997 y es HTML 3.2 y llega con CSS
+
+La cuarta version de HTML es lanzada en el año de 1999 y es HTML 4.01 y tenia mejores avances para los navegadores. La mayoria de los navegadores soportan css.
+
+La quinta version de HTML fue lanzada en 2000 y es XHTML 
+ 
+En el 2000 una nueva version de HTML, XHTML 1.0 es la primera version basada en XML en lugar de SGML. XML es mas restrictivo en las reglas de su sintaxis, por lo cual XHTML tambien lo es. No hay cambios en las etiquetas o los atributos desde HTML4.01. Solo la sintaxis ha cambiado, pero  no el lenguaje ni la semantica.
+Por ejemplo:
+    <A HREF=”TEST.html”>Ultimas noticias?</A> Valida para la version HTML 4.01.
+     <a href=””>Latest HTML News</a> Valida para XHTML.
+
+La version sexta de HTML fue liberada en 2014  y es HTML5. la cual ofrece nuevos elementos para su estructura como lo son los siguientes etiquetas:  
+6th Version of HTML release in 2014 and that is HTML5
+    <article>
+    <header>
+    <footer>
+    <nav>
+    <section>
+
+----------------------------
+3-¿De que se encarga CSS en un desarrollo web?
+CSS es un lenguaje que se usa para diseñar la forma de presentar los documentos a los usuarios como su estilo, diseño, etc.
+
+Los navegadores como Firefox, Chrome o Internet Explorer, están diseñados para presentar documentos de forma visual, por ejemplo, en una pantalla de ordenador, un proyector o una impresora.
+
+Una regla CSS se compone de: 
+  1.Un conjunto de propiedades  con valores establecidos para actualizar la presentación del contenido HTML. 2.Un selector, que seleccionará los elementos afectados por el nuevo valor de la propiedad. 
+  3.El conjunto de reglas CSS contenidas en el documento de estilos  afectará a la presentación de la página web. 
+
+-------------------------------
+4-¿Menciona 4 partes de la anatomia de la sintaxis en CSS?
+En el nivel más básico, CSS se compone de la siguiente manera:
+  1.El selector de HTML que quieres modificar.
+  2.El bloque de la declaracions contiene una o mas declaraciones separadas por punto y coma.
+  3.Cada declaracion incluye el nombre de la propiedad y 
+  4.el Valor, sepado por dos puntos.
+
+Una declaracion de CSS siempre termina con punto y coma y cada bloque de declaraciones esta rodeado por llaves.
+
+*Selectores.Podemos dividir los selectores en las siguientes categorías:
+  -Selectores simples: Seleccionan los elementos por el nombre del tipo de elemento, class, o su id.
+  -Selectores de atributos: Seleccionan los elementos por los valores de sus atributos.
+  -Pseudo-clases: Seleccionan los elementos por el estado en que se encuentran, cómo haber aparecido al pasar el ratón, o el tic deshabilitado o seleccionado, o por ser el primer hijo de su padre en el árbol DOM.
+  -Pseudo-elementos: Selecciona los elementos por su situación en relación a otro elemento, por ejemplo: la primera palabra de cada párrafo, o el contenido que se encuentra justo después de un elemento.
+  -Combinaciones: No son en sí mismos selectores, sino formas de combinar dos o más selectores de forma práctica para una selección especial. Por ejemplo, se pueden seleccionar párrafos que sean descendientes de divs, o párrafos situados justo después de títulos.
+  -Selectores múltiples: Tampoco son selectores en sí mismos; podemos agrupar múltiples selectores en la misma regla CSS separados por comas, para aplicarlos a una de las declaraciones o a todos los elementos seleccionados por estos selectores.
+
+*Propiedades: Son identificadores que indican a las personas qué característica de estilo (ancho, color de fondo, fuente) que se quiere cambiar.Hay más de 300 propiedades diferentes en CSS y casi infinitos valores diferentes. Cada propiedad tiene una lista especifica de valores que puede adoptar.
+
+*Valores: A cada propiedad se le da un valor, que indica cómo queremos cambiar esta característica (por ejemplo qué fuente, qué ancho o qué color usar). Algunos de los Valores mas vistos en CSS son:
+  -Valores numéricos: Valores de longitud para expresar el ancho de elementos, de bordes, o tamaño de fuentes; también enteros sin unidades para expresar anchos de línea o veces que se repite una animación.
+  -Porcentajes: Se usan para expresar tamaño o longitud relativos, por ejemplo al ancho y alto del contenedor previo o al tamaño de fuente predeterminado.
+  -Colores: Para expresar colores de fondo, de texto, entre otros.
+  -Coordenadas: Para expresar la posición relativa de un elemento, por ejemplo, el margen superior izquierdo de la pantalla.
+  -Funciones: Para expresar imágenes de fondo o el degradado de la imagen de fondo.
+
+El par formado por una propiedad y un valor se denomina declaración CSS. Las declaraciones CSS forman bloques declarativos. Los bloques de declaraciones CSS emparejados con selectores forman Conjuntos de Reglas CSS. Los pares propiedad y valor, se separan por dos puntos (:).
+
+*Declaraciones:  El motor CSS calcula qué declaraciones debe aplicar a cada elemento de una página para mostrarla y darle estilo de manera adecuada. Lo importante es recordar que tanto las propiedades como los valores son modificables en CSS. 
+
+Las declaraciones están agrupadas por bloques, en los que el conjunto de declaraciones se encuentra enumerado entre llaves, uno inicial ( { ) y otro final ( } ).
+
+Cada declaración contenida en un bloque declarativo deber estar separada por un punto y coma (;), sino el código no funcionará. La última declaración de un bloque no necesita llevar (;), aunque se considera buena práctica añadirlo, para prevenir olvidos cuando se añaden más declaraciones al bloque.
+
+Los bloques pueden estar anidados. En estos casos los corchetes de apertura y cierre deben definir el anidamiento lógicamente, de la misma manera en que las etiquetas anidan a los elementos HTML. El ejemplo más usual son las reglas-@, que son bloques que comienzan por el identificador @ como @media, @font-face, entre otros. 
+
+---------------------------------------
+5-¿Que es JavaScript?
+JavaScript es un lenguaje de programación que provee de interactividad y efectos especiales a las páginas web. Permite crear contenido nuevo y dinámico, controlar archivos de multimedia, crear imágenes animadas y muchas otras cosas más.Te permiten hacer cosas como almacenar valores útiles dentro de variables, operaciones escritas en formato de texto o hacer funcionar el código en respuesta a algunos eventos que están ocurriendo en la página web o usar la funcionalidad construida por encima del núcleo del lenguaje de JavaScript llamada Interfaz de programación en aplicaciones (API's ).
+
+Los APIS son inserciones de líneas, incluso bloques gigantes de código listos para usar que permiten a un desarrollador implementarlo a programas.
+
+----------------------------------------------
+6-¿Que es el DOM en desarrollo web?
+
+Signifoca Document Object Model (DOM) es una interface de programaciosn para documentos HTML y XML. Representa la pagina asi que lso programs pueden cambiar la estrucutra, el estilo y el contenido del documento. El DOM representa al documento como nodos y objetos. Es asi que los lenguanjes de programacion pueden conectarse conn la pagina.
+
+Una página web es un documento, este docummento puede reproducirrse en la ventana del navegador o como una fuente de HTML; pero en ambos casos es el mismo documento. El DOM representa al dcoumento que puede ser manipulado, es una representacion del objeto orientado de la pagina web que puede ser modificad por lenguanjes de programacion como los JavaScript.
+
+---------------------------------------------
+7-¿Que es PHP/NodeJS y Mysql/MongoDB?
+PHP:
+Es un lenguaje de código abierto muy popular, adecuado para desarrollo web y que puede ser incrustado en HTML. Es de código abierto significa que es de uso libre y gratuito para todos los programadores que quieran usarlo. Incrustado en HTML significa que en un mismo archivo vamos a poder combinar código PHP con código HTML, siguiendo unas reglas. PHP se utiliza para generar páginas web dinámicas. Recordar que llamamos página estática a aquella cuyos contenidos permanecen siempre igual, mientras que llamamos páginas dinámicas a aquellas cuyo contenido no es el mismo siempre. El esquema es: Petición de página web al servidor --> El servidor recibe la petición, reúne la información necesaria consultando a bases de datos o a otras páginas webs, otros servidores, etc --> El servidor responde enviando una página web “normal” (estática) pero cuya creación ha sido dinámica (realizando procesos de modo que la página web devuelta no siempre es igual)
+
+NodeJS:
+Es una librería y entorno de ejecución dirigida por eventos y por lo tanto asíncrona que se ejecuta sobre el intérprete de JavaScript. Es open-source y cross-platform de JavaScriptpara correr el ambiente. Es una forma de ejecutar JavaScript en el servidor, además de mucho más. Node.js es un entorno Javascript del lado del servidor, basado en eventos. Node ejecuta javascript para uso de navegadores. Proporciona un entorno de ejecución del lado del servidor que compila y ejecuta.  
+
+Mysql:
+Es un sistema de gestión de bases de datos relacional, fue creada por la empresa sueca MySQL AB, la cual tiene el copyright del código fuente del servidor SQL, así como también de la marca. MySQL es un software de código abierto, licenciado bajo la GPL de la GNU, aunque MySQL AB distribuye una versión comercial, en lo único que se diferencia de la versión libre, es en el soporte técnico que se ofrece, y la posibilidad de integrar este gestor en un software propietario, ya que de otra manera, se vulneraría la licencia GPL. El lenguaje de programación que utiliza MySQL es Structured Query Language (SQL) que fue desarrollado por IBM en 1981 y desde entonces es utilizado de forma generalizada en las bases de datos relacionales. 
+
+MongoDB:
+Es un sistema de base de datos NoSQL orientado a documentos de código abierto. En lugar de guardar los datos en tablas, tal y como se hace en las bases de datos relacionales, esto quiere decir que en lugar de guardar los datos en registros, guarda los datos en documentos. Estos documentos son almacenados en BSON, que es una representación binaria de JSON con un esquema dinámico, haciendo que la integración de los datos en ciertas aplicaciones sea más fácil y rápida. MongoDB es una base de datos adecuado para su uso en producción y con múltiples funcionalidades
+
+PHP:Lenguaje de programación. NodeJS: intérprete de Javascript. MySQL: base de datos relacional. MongoDB: base de datos no relacional
+
+----------------------------------------------
+8-Menciona por lo menos 5 editores de texto, menciona cual utilizarías y ¿por qué?
+*Visual Studio Code, Atom, Sublime Text, Vim, Brackets, Geany, Gedit,  Kate, Eclipse,  Kwrite y Nano.
+
+*Quisiera aprende a usar Vim porque tengo entendido que la forma de manejarse revoluciona la forma de pensar.
+
+------------------------------------------------
+9-Menciona las extensiones de los archivos generados de HTML, CSS, JavaScript.
+Html= .html
+CSS= .css
+JavaScript= .js
+PHP = .php
+Java= .java
+Python= .py
+
+----------------------------------------
+10-Dibuja (maqueta) una estructura básica de HTML5 y coloca sus respectivos TAGS en cada posición.
+Estructura basica:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  </body>
+</html>
+
+
+Principales TAGS del body:
+Las etiquetas semánticas más importantes son:
+<header>: Es el equivalente a la cabecera de la página web. Contiene el título, logo e información relacionada.
+<nav>: Contiene los enlaces (barra de navegación) externos o internos de la página.
+<section>: Es una gran caja que sirve para mostrar grandes bloques de contenido de la página. Puede contener diferentes subapartados de diferentes temas.
+<article>: Es una caja independiente de contenido que puede estar contenida (o no) dentro de un <section>. Normalmente utilizada para contenidos no demasiado extensos.
+<aside>: Define un bloque de contenido relacionado de manera indirecta con el contenido principal, pero que no es esencial para la compresión del mismo.
+<footer>:Equivale al pie de página de un apartado concreto o de la página web en general.
+
+Como maqueta podemos tener el siguiente ejemplo: 
+ <!doctype html>
+ <html>
+   <head>
+       <meta charset="UTF-8" />
+	   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+       <title>Título de la página</title>
+       <link rel="stylesheet" href="css/estilo.css" type="text/css"/> 
+   </head>
+
+   <body>
+     <!-- Aquí empieza el encabezado principal de las página web -->
+    <header>
+    <!-- Todos las etiquetas h refieren a titulo, es practica general solo tener un h1 por sitio web, hay del h1 al h6 -->
+      <h1>Header</h1>
+      <!-- Aunque no es obligatorio, es una práctica común el incluir el apartado menú de navegación dentro de la cabecera o encabezado de la página, se suele manejar un ul como lista desordenada, pero no es la unica tipo de lista-->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our team</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <!-- Un formulario de búsqueda es una forma no-lineal de realizar busquedas en un sitio web. -->
+        <form>
+          <input type="search" name="q" placeholder="Search query">
+          <input type="submit" value="Go!">
+        </form>
+      </nav>
+    </header>
+
+    <!-- Aquí empieza el contenido principal de nuestra página -->
+    <main>
+      <!-- Incluimos un artículo -->
+      <article>
+        <h2>Article heading</h2>
+        <!-- La p es para parrafos una estencion de texto usualmente más larga y descriptiva -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+        <h3>subsection</h3>
+        <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+        <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+        <h3>Another subsection</h3>
+        <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+        <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+      </article>
+      <!-- el contenido lateral puede también estar anidado en el apartado principal (main) -->
+      <aside>
+        <h2>Related</h2>
+        <ul>
+          <li><a href="#">Oh I do like to be beside the seaside</a></li>
+          <li><a href="#">Oh I do like to be beside the sea</a></li>
+          <li><a href="#">Although in the North of England</a></li>
+          <li><a href="#">It never stops raining</a></li>
+          <li><a href="#">Oh well...</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <!-- Y aquí está el pie de página principal del sitio web -->
+    <footer>
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+   </body>
+
+ </html>
+
+---------------------------------
+11-Menciona los tipos de listas en html5.
+1.Listas ordenadas
+2.Listas desordenadas.
+3.Listas definidas.
+
+A continuacion sus respectivos tags de apertura (recuerda es importante cerrarlos):
+<ol>	Define una lista ordenada de artículos.
+<ul>	Define una lista de artículos sin orden.
+<li>	Define un artículo de una lista ennumerada.
+<dl>	Define una lista de definiciones, es decir, una lista de términos y sus definiciones asociadas.
+<dt>	Representa un término definido por el siguiente <dd>.
+<dd>	Representa la definición de los terminos listados antes que él.
+
+-----------------------
+12-¿Que función tienen los Wai-Aria en los desarrollos web?
+La forma para crear contenido Web y aplicaciones Web que sean accesibles para las personas con discapacidades.
+
+Proporciona un marco de trabajo complementario.
+
+1.Estructuras más semánticas para las zonas funcionales.
+2.Mejora de la navegación mediante el teclado.
+3.Controles complejos (widgets) más accesibles.
+4.Accesibilidad para el contenido actualizado de forma dinámica.
+
+---------------------------------
+13- Dibuja una estructura básica de una tabla en html5 vacía.
+El Elemento de Tabla HTML (<table>) representa datos en dos o mas dimensiones.
+
+Las tablas pueden tener los siguientes valores:
+*none, indica que ninguna regla se mostrará, es el valor por defecto;
+*groups, mostrará el número de reglas a mostrarse entre grupos de filas (definido por los elemenetos <thead>, <tbody> y <tfoot>) y entre grupos de columnas (definido por los elemenetos <col> y <colgroup>) solamente;
+rows, que mostrará las reglas entre filas;
+*columns, que mostrará las reglas entre columnas;
+*all, que mostrará las reglas entre filas y columnas.
+
+Tenemos los siguientes ejemplos:
+<!--  Tabla simple-->
+<table>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>Doe</td>
+  </tr>
+</table>
+
+<!--  Tabla simple con encabezado -->
+<table>
+  <tr>
+    <th>First name</th>
+    <th>Last name</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>Doe</td>
+  </tr>
+</table>
+
+<!-- Tabla con thead, tfoot, y tbody -->
+<table>
+  <thead>
+    <tr>
+      <th>Header content 1</th>
+      <th>Header content 2</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>Footer content 1</td>
+      <td>Footer content 2</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>Body content 1</td>
+      <td>Body content 2</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Tabla con colgroup -->
+<table>
+  <colgroup span="4" class="columns"></colgroup>
+  <tr>
+    <th>Countries</th>
+    <th>Capitals</th>
+    <th>Population</th>
+    <th>Language</th>
+  </tr>
+  <tr>
+    <td>USA</td>
+    <td>Washington D.C.</td>
+    <td>309 million</td>
+    <td>English</td>
+  </tr>
+  <tr>
+    <td>Sweden</td>
+    <td>Stockholm</td>
+    <td>9 million</td>
+    <td>Swedish</td>
+  </tr>
+</table>
+
+<!-- Tabla con colgroup y col -->
+<table>
+  <colgroup>
+    <col class="column1">
+    <col class="columns2plus3" span="2">
+  </colgroup>
+  <tr>
+    <th>Lime</th>
+    <th>Lemon</th>
+    <th>Orange</th>
+  </tr>
+  <tr>
+    <td>Green</td>
+    <td>Yellow</td>
+    <td>Orange</td>
+  </tr>
+</table>
+
+<!-- Tabla simple con caption -->
+<table>
+  <caption>Awesome caption</caption>
+  <tr>
+    <td>Awesome data</td>
+  </tr>
+</table>
+
+---------------------------------
+14-Menciona los diferentes tipos de input que existen en html5.
+Este elemento incluye los atributos globales, y los indicados a continuación.
+
+Su valor predeterminado es text, si no se especifica este atributo. Los posibles valores son:
+  °button: Botón sin un comportamiento específico.
+  °checkbox: Casilla de selección. Se debe usar el atributo value para definir el valor que se enviará por este elemento.  También se puede usar el atributo indeterminate para indicar que la casilla está en un estado indeterminado.
+  °color: Para espicificar un color. Una interfaz de selección de color no requiere más funcionalidad que la de aceptar colores simples como texto.
+  °date: Para introducir una fecha (año, mes y día, sin tiempo).
+  °datetime: Para introducir una fecha y hora (horas, minutos, segundos y milisegundos), basado en la zona horaria UTC.
+  °datetime-local: Para introducir fecha y hora, sin zona horaria específica.
+  °email: Para introducir una dirección de correo electrónico. El valor introducido se valida para que contenga una cadena vacía o una dirección de correo válida antes de enviarse. Las pseudo-clases :valid y :invalid son aplicadas segun corresponda.
+  °file: Permite al usuario seleccionar un archivo. Se puede usar el atributo accept para definir los tipos de archivo que el control podrá seleccionar.
+  °hidden: No es mostrado en pantalla, pero cuyo valor es enviado al servidor.
+  °image: Botón de envío de formulario con gráfico. Se debe usar el atributo src para definir el origen de la imagen y el atributo alt para definir un texto alternativo. Se puede usar los atributos height y width para definir el tamaño de la imagen en píxeles.
+  °month: Para introducir un mes y año, sin zona horaria específica.
+  °number: Para introducir un número de punto flotante.
+  °password: Valor permanece oculto. Se puede usar el atributo maxlength para especificar la longitud máxima del valor que se puede introducir.
+  °radio: PAra definir el valor que se enviará por este elemento. Se usa el atributo checked para indicar si el elemento está seleccionado de forma predeterminada. Los botones radio que tengan el mismo valor para su atributo name están dentro del mismo "grupo de botones radio". Solo un botón radio dentro de un grupo puede ser seleccionado a la vez.
+  °range: Para introducir un número cuyo valor exacto no es importante. Este control usa los siguientes valores predeterminados si no se especifica cada atributo:
+    *min: 0
+    *max: 100
+    *step: 1
+  °reset: Botón que restaura los contenidos de un formulario a sus valores predeterminados.
+  °search: Cuadro de texto de línea simple para introducir textos de búsqueda.
+  °submit: Botón que envía el formulario.
+  °tel: Para introducir un número telefónico. 
+  °text: Campo de texto de línea simple.
+  °time: Para introducir un valor de tiempo sin zona horaria específica.
+  °url: Para editar una URL. El valor introducido se valida para que contenga una cadena vacía o una ruta URL absoluta antes de enviarse. 
+  °week: Para introducir una fecha que consiste en número de semana del año y número de semana sin zona horaria específica.
+
+------------------------------------
+15-¿Que formatos de videos (extensiones) recomiendas importar a tu proyecto web y ¿Por que?
+ Puede tener varios formatos, por ejemplo:
+
+°MP4: porque es soportado por MACs, Internet Explorer y Safari.
+°WebM: porque es soportado por Firefox y Chrome.
+° Ogg: porque es soportado por Firefox y Chrome, pero se considera que tiene mejor calidad que el formato WebM.
+
+-------------------------------------------
+16-¿Como validas un campo de html5?
+Para hacer un input de tipo texto obligatorio se utiliza el atributo “required”.
+Para mostrar una sugerencia en un input de tipo texto se utiliza el atributo “placeholder”.
+Para validar que un input de tipo texto se utiliza el atributo “pattern” acompañado de una expresión regular.
+Para validar que un input de tipo texto se utiliza se utiliza el atributo “minlength”.
+
+Validación de ficheros
+Para hacer un input de tipo archivo obligatorio se utiliza el atributo “required”.
+Para hacer que un input de tipo archivo solo acepte una extensión determinada se utiliza el atributo “accept”.
+Para hacer que un input de tipo archivo acepte las extensiones de un tipo de archivo se utiliza “.extensión”.
+Para hacer que un input de tipo archivo acepte más de una extensión separamos los valores con comas.
+Para hacer que un input de tipo archivo acepte todas las extensiones de un tipo de archivo se utiliza asterisco.
+
+----------------------------------------
+17-¿Que ventajas tiene utilizar datalist o un select?
+Etiqueta "datalist".
+Es usada como sugerencia de posibles valores de un array con valores relevantes a campo. Este elemento es un coampo de texto, normalmente este campo tendria un array largo que puede usarse escribiendo parte de la palabra , tambien el usuario puede agregar su propio valor en lugar de selecionarlo de la lista. Este elemento es introducido en HTML5.
+
+Etiqueta "select".
+Hace que una lista se despliegue y se pueda señalar soloamante un valor valido del campo. El usuario no puede poner su propio valor, Es impuesto el valor y preguntado al usuario para que selecione uno de la lista. Puede tener label y valores que pueden ser diferentes entre si.
+
+Diferencias claves:
+  °Select es un formulario de tipo input mientras que Datalist no.
+  °El elemento select input le da al usuario opciones de las cuales tienen que selecionar una de ellas. Por otro lado, el elemento Datalist presenta una lista de valores sugeridos asociados con el campo y los usuarios son libre s de selecionar uno de los valores sugeridos o escribir su propio valor. 
+  °Con Select, los usuarios deben de escanear una lista larga de opciones para seleccionar un valor de ella, mientras que con Datalist, los valores son una pista y el usuario no esta obligado a esos valores, ellos pudieran proveer como ya se señalo su porpio valor.
+  
+-------------------
+18-¿Que función tiene el “#” al colocar un href para enlaces?
+EL mayor uso para las etiquetas anchor (<a></a>) es que son hypervinculos, por lo cual te llevaran a algun otro lugar. Los hypervinculos requieren la propiedad href, porque es donde se señala la loclcion especifica.
+
+  °Almohadilla: "#" con ella el hipervinvulo especifica en el html el id a donde enviar.
+    href="#algun-id" enviara a un eleento de la pagina actual, como puede ser un <div id="algun-id">.
+    href="//sitio.com/#algun-id" te llevara a sitio.com y al id de la pagina.
+    href="#" de esta forma la pagina sube al principio de la misma. 
+
+------------------------------------------
+19-¿Que problemas de seguridad tiene el TAG de a href=“” y còmo lo solucionas?
+Si una pagina web inicia un evento como abrir una ventana automaticamente, el evento no es de confianza y por lo tanto bloqueado. Mediante ataques a una pagina se puede general un evento de confianza mediante el click del usuario en un enlace que abre uno o mas ventanas pop-up. Este eveneto puede ser usado por el que ha puesto el nuevo evento despuespes o directamente para generar pop-up.
+
+Tambien puede ser que se simulen otros espacios del sitio web para que el usuario ingrese informacion confidencial o vulnerable.
+
+Se recomienda no usar el tag "_blank" para solucionar ese problema.
+
+---------------------------------------
+20- Dibuja una estructura basica de un formulario en html5.
+<form action="/pagina" method="post">
+    <div>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="user_name" />
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_email" />
+    </div>
+    <div>
+        <label for="msg">Mensaje:</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+        <div class="button">
+        <button type="submit">Envia tu mensaje</button>
+    </div>
+</form>
+
+-----------------------
+21- ¿Que es y para que funciona el “poster” en un video importado en html5?
+La propiedad poster regresa el valor de una imagen del atributo video. Es decir, especifica una imagne que sera mostrada mientras el video se carga. o hasta que el usuario le de click al boton de inicio del video, sino se utiliza esta propiedad se utiliza el primer marco del video en su lugar.
+
+---------------------------------------
+22-¿Como puedes mitigar el problema de los caracteres raros en los sitios web?
+Con utf-8 se puede mitigar, ya que es un juego de caracteres universal que incluye prácticamente cualquier caracter de cualquier idioma humano. Esto significa que tu página web podrá manejar la visualización de cualquier idioma y es tuilizado de la siguiente manera:
+
+       <meta charset="UTF-8" />
+	
+-------------------------------------  
+23- Menciona por lo menos 3 TAGs meta recomendados en la estructura basica de html5
+     1.<meta charset="UTF-8" />
+	   2.<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	   3.<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+ 
+Las etiquetas meta deben ser indicadas por el programador ya que no vienen por default. Hay dos tipos, genericos o especificos y son los siguientes:
+
+  °Genéricos:
+    *lang. Da información sobre el idioma del contenido del elemento y del valor de sus atributos.	Un código de idioma. 
+    *dir. 	Indica la dirección de texto y tablas.	Uno de los siguientes: 'ltr' o 'rtl'. P
+
+  °Específicos:
+    *name. Nombre al que se asocia la metainformación.	Un 'nombre'.  
+    *content.	Los datos que se quieren asociar a name.	Texto. 
+    *http-equiv. Aporta información sobre los encabezado de respuesta HTTP, puede usarse en lugar de name.	
+    *scheme. Indica un esquema de interpretación para los metadatos.	Texto. 
+
+		*Nota: tambien pueden agregar el favicon de la siguiete manera de 16x16 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">

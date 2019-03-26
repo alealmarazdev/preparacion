@@ -1,0 +1,79 @@
+UXD
+Diseo de experiencia de usuario
+-Contenido(Que debe hacer?)
+-Usuario(quien es el usuario?)
+-Diseño de interfaces(que te invite a que continue)
+-Diseño de interaccion(como interactua el usuario con tu sitio web)
+
+Mandamientos:
+1.Involucra a tus usuarios()
+2.Considera la carga congnitiva(don t make mw think)
+3.Mantén las cosas sencillas
+4.Se consistente
+5.Diseña con intención
+6.Concentrate en la funcion sobre la estética
+7.Ubica en donde estas dentro del proceso de diseño
+8.Personaliza la experiencia()
+9.Deja espacio para errores de los usuarios(no se puede asumir que todo saldra bien, por eso es necesario la atencion)
+10.Mantente actualizado
+
+Proceso UX/UI
+1.Briefing (presentacion del problema, quienes trabajaran, cuanto tiempo y de que manera)
+2.Ideacion (platicar y pensar un poco más, se lleva una lluvia de ideas, lo que va a hacer el producto, como se soluciona, porque, es importante dar todas las ideas, pero ayuda a crear nuevas ideas, no juzgar las ideas de los demás, como podriamos llegar a los puntos que necesitamos? que sea util?)
+3.Jerarquías de navegacion(priorizar y organizar las ideas, es estar rehaciendo las cosas, se basa para hacer los wireframes y que las Jerarquías sean buenas)
+4.Diseña un plan (repartir funciones, uso de software)
+5.Prototipa y prueba ()
+6.Look and feel (tiene identidad, )
+7.Front end/maquetado ()
+8.User testing(expo, crystal, mirror,xd)
+
+
+Problematica. 
+Paso demasiado tiempo que ponerme y al final ni me gusta lo que me pongo.Una plataforma que va ayudar a elegir ropa
+
+
+
+Seria cool si fuera una aplicacion de celular que reconozca mi mood, el clima del dia, y mis actividades del dia.
+
+-Estaria padre que  pueda escoger una prenda especificame y hacer el match o que me recomiende tres conjuntos  o que de esos tres conjuntos me guarde una prenda que quiero usar y que busque el match.
+En caso de que no me gusten los tres conjuntos los quite y me pongo otras tres propuestas. Guarde lo que use en la semana para que no se repita.
+-Que me recomiende peinado y accesorios.
+-que me guarde estadisticas para que me diga que ropa ya no estoy usando y puedo donar o vender, asi como las cosas que uso cuando estoy en un evento especifico, que sea social y puedas coordinar con amigos.
+-que guarde mi estilo y mis prendas favoritas, asi mismo que me recomiende sobre un cambio estilo.
+-que si me gusta algo de una tienda que se guarde y me ayude a ir creando un guardaropa.
+-checklist y que ademas se asegure los basicos
+-solo la foto de la blusa y el pantalon
+
+
+*Como pudieramos cumplir esta vision.
+Camara
+Google lens
+Red social
+que se sincronice con calendario
+con alarma
+con el clima
+con la ubicacion
+con los contactos
+que mande al blog a  la liga
+niveles: -----
+convenios con tienda con descuentos segun el uso.
+que se conecte a otras redes sociales para compartir tus outfits
+Modelo de negocio, ofertando ropa segun tiendas y estilos, pudiendo comprar atraves de la app o te mande por cercania
+que acepte pagos
+que guarde la ropa, favoritos
+que pueda seleccionar por si sola la ropa que combine
+
+*que me detiene
+todo(tecnicos)
+permiso de google lens
+que no hay convenios con otras tiendas
+resolucion de las camaras
+simplificar info y sea relevante
+
+*soluciones
+ir con Charles para que lo haga(tecnico)
+usar otros tipos de api
+buscar convenios desde el inicio o conforme se desarrolle
+fotos basicas  o busquen productos similar o pongas la descripcion con max 4 preguntas}
+
+  b
